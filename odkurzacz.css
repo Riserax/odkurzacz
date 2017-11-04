@@ -1,5 +1,7 @@
-body{
+body
+{
 	background-color: #3D3C45;
+	font-family: 'Lato', sans-serif;
 }
 #container
 {
@@ -22,6 +24,29 @@ body{
 	color: white;
 	padding: 10px;
 	height: 40px;
+	margin-bottom: 20px;
+}
+#add
+{
+	clear: both;
+}
+#content
+{
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+  padding-bottom: 40px;
+	background-color: #DEDEDE;
+	min-height: 440px;
+	text-align: justify;
+	font-size: 16px;
+}
+#footer
+{
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
 }
 .option
 {
@@ -39,21 +64,6 @@ body{
 	background-color: #1F608C;
 	cursor: pointer;
 }
-a
-{
-	text-decoration: none;
-	color: white;
-}
-#content
-{
-	background-color: #4F4E59;
-	padding-top: 20px;
-	padding-bottom: 40px;
-	padding-left: auto;
-	padding-right: auto;
-	margin-top: 20px;
-	margin-bottom: 30px;
-}
 img
 {
 	margin-left: 20px;
@@ -66,5 +76,67 @@ h3
 	font-style: italic;
 	font-weight: 900;
 	letter-spacing: 3px;
-	
+}
+.title
+{
+	font-size: 32px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+.dottedline
+{
+	height: 5px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-bottom: 2px dotted #444444;
+}
+.minTitle
+{
+	font-size: 20px;
+	font-weight: 900;
+}
+.rozmiar
+{
+	font-size: 16px;
+}
+.fb
+{
+	width: 105px;
+	margin: 10px;
+	height: 142px;
+	background-color: #4668B3;
+	float:left;
+	text-align: center; 
+	color: white;
+}
+.fb:hover
+{
+	background-color: #3557A2;
+}
+.gplus
+{
+	width: 105px;
+	margin: 10px;
+	height: 142px;
+	background-color: #D95333;
+	float:left;
+	color: white;
+}
+.gplus:hover
+{
+	background-color: #C84222;
+}
+.tw
+{
+	width: 105px;
+	margin: 10px;
+	height: 142px;
+	background-color: #3095D3;
+	float:left;
+	text-align: center;
+	color: white;
+}
+.tw:hover
+{
+	background-color: #2084C2;
 }
