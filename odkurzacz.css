@@ -1,6 +1,6 @@
 body
 {
-	background-color: #3D3C45;
+	background-color: #4F4E59;
 	font-family: 'Lato', sans-serif;
 }
 #container
@@ -11,7 +11,7 @@ body
 }
 #logo
 {
-	color: white;
+	color: #e04b27;
 	margin-top: 20px;
 	font-size: 26px;
 	letter-spacing: 3px;
@@ -19,7 +19,7 @@ body
 }
 #menu
 {
-	background-color: #2675AB;
+	background-color: #002a54;
 	margin-top: 20px;
 	color: white;
 	padding: 10px;
@@ -41,8 +41,7 @@ a
 	padding-left: 40px;
 	padding-right: 40px;
   	padding-bottom: 40px;
-	background-color: #DEDEDE;
-	min-height: 440px;
+	background-color: #eaedf1;
 	text-align: justify;
 	font-size: 16px;
 }
@@ -66,7 +65,7 @@ a
 }
 .option:hover
 {
-	background-color: #1F608C;
+	background-color: #e04b27;
 	cursor: pointer;
 }
 h3
