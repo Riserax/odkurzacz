@@ -1,0 +1,43 @@
+
+body{
+	background-color: #3D3C45;
+}
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo
+{
+	color: white;
+	margin-top: 20px;
+	font-size: 30px;
+	letter-spacing: 3px;
+	font-weight: 900;
+}
+#menu
+{
+	background-color: #2675AB;
+	margin-top: 20px;
+	color: white;
+	padding: 10px;
+	height: 40px;
+}
+.option
+{
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted white;
+	opacity: 0.8;
+	padding-left: 30px;
+}
+
+.option:hover
+{
+	background-color: #1F608C;
+	cursor: pointer;
+}
